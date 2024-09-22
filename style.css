@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body,main {
+  background: #212172;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form input {
+  display: block;
+  background: #4c2885;
+  width: 800px;
+  padding: 1rem;
+  border: none;
+  margin: 20px;
+  color: #bbb;
+  border-radius: 10px;
+  outline: none;
+}
+.card {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* flex-direction: column; */
+  font-family: "open sans";
+  background: #4c2885;
+  max-width: 700px;
+  color: #bbb;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.profile-image {
+    padding: 25px;
+  /* border: 2px solid blue; */
+}
+.profile-image img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border: 10px solid #212172;
+  cursor: pointer;
+
+}
+
+.user-info {
+  /* border: 2px solid red; */
+}
+
+.user-info>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-info>ul>li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#repos a{
+    display: inline-block;
+    background: #212172;
+    padding: 5px 10px;
+    margin: 5px;
+    color: #bbb;
+    border-radius: 5px;
+    text-decoration: none;
+}
